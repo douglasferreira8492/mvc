@@ -17,6 +17,8 @@ if(file_exists($patch))
 
 }else{
     echo "Erro 404. Página não encontrada.";
+
+    echo "Olá 123456";
 }
 
 ?>
