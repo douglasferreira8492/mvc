@@ -16,7 +16,9 @@ if(file_exists($patch))
     $instance->$function();
 
 }else{
-    echo "Erro 404. Página não encontrada.";
+    echo "Erro 404. Página não encontrada. <br/>";
+
+    echo "Verifique a URL";
 }
 
 ?>
